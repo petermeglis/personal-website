@@ -4,51 +4,53 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="icon" href="./imgs/LogoBlack.png">
-    <title>Welcome! | Peter Meglis</title>
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
     <link href="./home.css" rel="stylesheet">
 
+    <link rel="icon" href="./images/LogoBlack.png">
+    <title>Welcome! | Peter Meglis</title>
   </head>
-  <body class="text-center" cz-shortcut-listen="true">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
-      <header class="masthead mb-auto">
-      </header>
 
-      <main role="main" class="inner cover">
-        <div class="mx-auto my-4" style="max-width: 60%">
-          <img src="./imgs/PeterMeglis.jpg" class="img-fluid img-thumbnail"/>
+  <body class="text-center">
+    <!-- Nav Bar -->
+    <div class="container">
+      <nav class="navbar navbar-dark navbar-expand-sm">
+        <a class="navbar-brand" href="/">
+          <img src="./images/LogoWhite.png" width="50" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="mailto:petermeglis@gmail.com">Contact</a>
+            <a class="nav-item nav-link" href="/resources/PeterMeglisResume.pdf" target="_blank">Resume</a>
+          </div>
         </div>
-        <h1 class="cover-heading">Hi! My name is Peter!</h1>
-        <p class="lead">I majored in computer science with a minor in entrepreneurship & innovation from Penn State University in May 2020.</p>
-        <p class="lead">
-          <a href="mailto:petermeglis@gmail.com" class="btn btn-lg btn-secondary">Contact me</a>
-        </p>
-      </main>
-
-      <footer class="mastfoot mt-auto">
-      </footer>
-
+      </nav>
     </div>
+    
+    <!-- Main Content -->
+    <div class="container d-flex flex-column p-3">
+      <div class="col-md-4 mx-auto">
+        <img src="./images/PeterMeglis.jpg" class="img-fluid img-thumbnail"/>
+      </div>
+      
+      <div class="col-md-8 mx-auto">
+        <h1 class="mt-4">Hi! My name is Peter!</h1>
+        <p class="lead">I majored in computer science with a minor in entrepreneurship & innovation from Penn State University, May 2020.</p>
+      </div>
+      <p class="lead mt-2">
+        <a href="mailto:petermeglis@gmail.com" class="btn btn-lg btn-secondary">Contact me</a>
+      </p>
+    </div>
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </body>
 </html>
