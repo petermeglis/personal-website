@@ -1,6 +1,10 @@
 html,
 body {
-  background-color: #222027;
+  background-image: url('images/BackgroundImage.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #19141A;
 }
 
 body {
@@ -10,12 +14,12 @@ body {
 
 .btn-secondary,
 .btn-secondary:focus {
-  color: #222027;
+  color: #19141A;
   text-shadow: none;
   background-color: #fff;
   border: .05rem solid #fff;
 } 
 
 .btn-secondary:hover {
-  background-color: #222027;
+  background-color: #19141A;
 }
